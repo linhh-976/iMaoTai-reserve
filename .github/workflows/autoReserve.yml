@@ -45,8 +45,8 @@ jobs:
 
       - name: start run
         env:
-          PUSHPLUS_KEY: ${{ secrets.PUSHPLUS_KEY }}
-          PRIVATE_AES_KEY: ${{ secrets.PRIVATE_AES_KEY }}
+          PUSHPLUS_KEY: "662b7e65a8b54db2a2158acff758ba2f"
+          PRIVATE_AES_KEY: '666666'
         run: |
           python main.py
 
